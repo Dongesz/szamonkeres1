@@ -30,11 +30,25 @@ print(c)
 d = c-2*a-3*b
 print(d)
 '''
-#5.feladat
-
+#5.feladat a,
+'''
 import random
-x = random.randrange(1,21)
-paros []
-paratlan []
+list = []
 
-if 
+for x in range (20):
+    n = random.randint(1,12)
+    list.append(n)
+
+    if n % 2 == 0:
+        print(n)
+'''
+#5.feladat b,
+import random
+list = []
+
+for x in range (20):
+    n = random.randint(1,12)
+    list.append(n)
+
+    if n % 2 != 0:
+        print(n)
